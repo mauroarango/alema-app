@@ -6,6 +6,7 @@ import { RealizarpedidoComponent } from './realizarpedido/realizarpedido.compone
 import { BuscarpedidoComponent } from './buscarpedido/buscarpedido.component';
 import { EditarpedidoComponent } from './editarpedido/editarpedido.component';
 import { EliminarpedidoComponent } from './eliminarpedido/eliminarpedido.component';
+import { AsignarpedidoComponent } from './asignarpedido/asignarpedido.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { EliminarpedidoComponent } from './eliminarpedido/eliminarpedido.compone
     RealizarpedidoComponent,
     BuscarpedidoComponent,
     EditarpedidoComponent,
-    EliminarpedidoComponent
+    EliminarpedidoComponent,
+    AsignarpedidoComponent
   ],
   imports: [
     CommonModule,
