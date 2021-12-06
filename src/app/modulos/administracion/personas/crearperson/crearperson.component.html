@@ -1,1 +1,74 @@
 <h1>crearperson works!</h1>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-5">
+                <label for="txtNombre" class="form-label">Nombres y Apellidos</label>
+                <input type="text" class="form-control" id="txtNombre" required>
+                <div class="invalid-feedback">
+                    Campo requerido
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <label for="txtcorreo" class="form-label">Correo Electronico</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="email" class="form-control" id="txtcorreo" aria-describedby="inputGroupPrepend"
+                        required>
+                    <div class="invalid-feedback">
+                        Ingrese un correo valido
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <label for="txtcelular" class="form-label">Celular</label>
+                <input type="text" class="form-control" id="txtcelular" required>
+                <div class="invalid-feedback">
+                    Campo requerido.
+                </div>
+            </div>
+            <div class="col-md-5">
+                <label for="txtmsm" class="form-label">Mensaje</label>
+                <input type="text" class="form-control" id="txtmsm" required>
+                <div class="invalid-feedback">
+                    Campo valido.
+                </div>
+            </div>
+
+
+            <br>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Registrese</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/JavaScript" src="Estilos/funciones.js"> </script>

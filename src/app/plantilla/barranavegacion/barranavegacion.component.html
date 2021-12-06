@@ -6,26 +6,56 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Productos <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contactenos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tienda</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pedidos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Realizar Pedido</a>
+                    <a class="dropdown-item" href="#">Asignar Pedido</a>
+                    <a class="dropdown-item" href="#">Borrar Pedido</a>
+                    <a class="dropdown-item" href="#">Editar Pedido</a>
+                    <a class="dropdown-item" href="#">Buscar Pedido</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Desplegable
+                    Seguridad
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Desplegable 1</a>
-                    <a class="dropdown-item" href="#">Desplegable 2</a>
-                    <a class="dropdown-item" href="#">Desplegable 3</a>
+                    <a class="dropdown-item" href="#">Ingresa Aquí</a>
+                    <a class="dropdown-item" href="#">Cambiar Clave</a>
+                    <a class="dropdown-item" href="#">Recuperar Clave</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Administración Personas
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                        href="src/app/modulos/administracion/personas/crearperson/crearperson.component.html">Crear
+                        Persona</a>
+                    <a class="dropdown-item" href="#">Borrar Persona</a>
+                    <a class="dropdown-item" href="#">Editar Persona</a>
+                    <a class="dropdown-item" href="#">Buscar Persona</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Administración Productos </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Crear Producto</a>
+                    <a class="dropdown-item" href="#">Borrar Producto</a>
+                    <a class="dropdown-item" href="#">Editar Producto</a>
+                    <a class="dropdown-item" href="#">Buscar Producto</a>
                 </div>
             </li>
         </ul>
+
     </div>
 </nav>
